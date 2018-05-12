@@ -30,4 +30,20 @@ img {
     text-align: center;
 }
 
+#randNum {
+    font-size: 34px;
+}
+
+#totalScore {
+    font-size: 34px;
+}
+
+#winCounter {
+    font-size: 34px;
+}
+ 
+#lossCounter {
+    font-size: 34px;
+}
+
 
