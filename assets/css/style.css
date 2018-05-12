@@ -1,0 +1,25 @@
+body{
+    background-image: url(../../assets/images/SimpsonBackground.jpg);
+}
+h1 {
+    text-align: center;
+    margin: 40px;
+}
+
+.instructions {
+    text-align: center;
+}
+
+.counters {
+    text-align: center;
+}
+
+.btn-group {
+    text-align: center;
+}
+
+.scores {
+    text-align: center;
+}
+
+
