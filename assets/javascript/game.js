@@ -3,7 +3,7 @@
 var randNum = [];
 var winCounter = [];
 var lossCounter = [];
-var totalScore = "";
+var totalScore = [];
 var homerNum = "";
 var margeNum = "";
 var bartNum = "";
@@ -22,9 +22,10 @@ $(document).ready(function() {
         
         for(var i = 0; i<9; i++){
             homerNum = Math.floor((Math.random() * 12) + 1);
-        
+            totalScore.push(homerNum);
         }
         console.log(homerNum);
+        console.log(totalScore);
     })
 
     $("#marge").click(function() {
@@ -54,6 +55,7 @@ $(document).ready(function() {
 
     $("#randNum").append("<h2>" + randNum + "</h2>")
 
-
+    $("#totalScore").append("<h3>" + totalScore + "</h3>")
+    console.log(totalScore)
     
 });

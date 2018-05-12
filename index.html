@@ -11,42 +11,44 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 </head>
 <body>
-     <h1>I am so smart S M R T, I mean S M A R R T!</h1>
+     <h1 id="title">I am so smart S M R T, I mean S M A R R T!</h1><br>
 
       <div class="instructions">
-          <p>You will be given a random number at the start of the game.</p><br>
-          <p>There are four Simpson Characters below. By clicking on a Character you will add a specific amount of points to your total score.</p><br>
-          <p>You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number.</p><br>
-          <p>The value of each Character is hidden from you until you click on it.</p><br>
-          <p>Each time the game starts, the value of each Character changes.</p><br>
-          <p>Good Luck!</p><br>
+          <p>You will be given a random number at the start of the game.</p>
+          <p>There are four Simpson Characters below. Clicking on a Character will add a specific amount of points to your total score.</p>
+          <p>You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number.</p>
+          <p>The value of each Character is hidden from you until you click on it.</p>
+          <p>Each time the game starts, the value of each Character changes.</p>
+          <p>Good Luck!</p>
       </div>
 
       <div class="counters">
         <div id="randNum">
-
-        </div>
-
-        <div id="winCounter">
-
-        </div>
-
-        <div id ="lossCounter">
-
+            <h1>Number to match:</h1>
         </div>
         
     <div class="btn-group" role="group" aria-label="Basic example">
-        <button type="button" class="btn btn-secondary" id="homer">Homer</button>
-        <button type="button" class="btn btn-secondary" id="marge">Marge</button>
-        <button type="button" class="btn btn-secondary" id="bart">Bart</button>
-        <button type="button" class="btn btn-secondary" id="lisa">Lisa</button>
+        <img src="assets/images/homer.png" id="homer" width="145" height="150">
+        <img src="assets/images/marge.png" id="marge" width="150" height="310">
+        <img src="assets/images/bart.png" id="bart" width="130" height="150">
+        <img src="assets/images/lisa.png" id="lisa" width="180" height="140">
     </div>
     </div>
 
     <div class="scores">
         <div id="totalScore">
-
+            <h3>Your Score: </h3>
         </div>
+        <div id="winCounter">
+            <h3>Wins: </h3>
+        </div>
+
+        <div id ="lossCounter">
+            <h3>Losses:</h3>
+        </div>
+        <br>
+        <br>
+        <br>
 
 <script src="assets/javascript/game.js"></script>
 </body>
