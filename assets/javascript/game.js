@@ -43,10 +43,12 @@ $(document).ready(function() {
         if(totalScore === randNum){
             winCounter ++;
             $("#winCounter").text("Wins: " + winCounter);
+            alert("You Win!")
             reset();
         } else if(totalScore > randNum){
             lossCounter ++;
             $("#lossCounter").text("Losses: " + lossCounter );
+            alert("You Lose!")
             reset();
         }
         
@@ -65,10 +67,12 @@ $(document).ready(function() {
         if(totalScore === randNum){
             winCounter ++;
             $("#winCounter").text("Wins: " + winCounter);
+            alert("You Win!")
             reset();
         } else if(totalScore > randNum){
             lossCounter ++;
             $("#lossCounter").text("Losses: " + lossCounter );
+            alert("You Lose!")
             reset();
         
         }
@@ -83,10 +87,12 @@ $(document).ready(function() {
         if(totalScore === randNum){
             winCounter ++;
             $("#winCounter").text("Wins: " + winCounter);
+            alert("You Win!")
             reset();
         } else if(totalScore > randNum){
             lossCounter ++;
             $("#lossCounter").text("Losses: " + lossCounter );
+            alert("You Lose!")
             reset();
         }
 
@@ -101,14 +107,15 @@ $(document).ready(function() {
         if(totalScore === randNum){
             winCounter ++;
             $("#winCounter").text("Wins: " + winCounter);
+            alert("You Win!")
             reset();
         } else if(totalScore > randNum){
             lossCounter ++;
             $("#lossCounter").text("Losses: " + lossCounter );
+            alert("You Lose!")
             reset();
         }
 
-        console.log(lisaNum);
     });
 
 
